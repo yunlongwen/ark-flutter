@@ -1,0 +1,10 @@
+{
+  "lightMode": "Light Mode",
+  "@lightMode": {
+    "description": "The Light Mode option"
+  },
+  "darkMode": "Dark Mode",
+  "@darkMode": {
+    "description": "The Dark Mode option"
+  }
+}
