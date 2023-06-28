@@ -19,7 +19,7 @@ Flutter Scaffold-X 是一个基于 GetX 框架的强大而高效的 Flutter 脚�
 
 - 克隆仓库：
   ``` bash
-  git clone https://github.com/yunlong.wen/flutter-scaffold-x.git
+  git clone https://github.com/yunlongwen/flutter-scaffold-x.git
   ```
 
 - 安装所需依赖项：
@@ -58,3 +58,7 @@ Flutter Scaffold-X 的项目结构采用模块化的方法，促进代码分离�
     - styles                        # 存放共享的样式和主题定义
 
   - main.dart                       # 应用程序的入口文件
+
+## 资料
+
+中文文档: https://flutter.cn/docs
