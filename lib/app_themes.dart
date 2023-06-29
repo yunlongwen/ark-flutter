@@ -6,8 +6,12 @@ class AppThemes {
     // Light theme configuration
     brightness: Brightness.light,
     primaryColor: Colors.blue,
-    // Define other theme properties
-    // ...
+    appBarTheme: const AppBarTheme(
+      backgroundColor: Colors.blue,
+    ),
+    floatingActionButtonTheme: const FloatingActionButtonThemeData(
+      backgroundColor: Colors.blue,
+    ),
   );
 
   static final ThemeData darkTheme = ThemeData(
@@ -15,7 +19,11 @@ class AppThemes {
     // Dark theme configuration
     brightness: Brightness.dark,
     primaryColor: Colors.deepPurple,
-    // Define other theme properties
-    // ...
+    appBarTheme: const AppBarTheme(
+      backgroundColor: Colors.deepPurple,
+    ),
+    floatingActionButtonTheme: const FloatingActionButtonThemeData(
+      backgroundColor: Colors.deepPurple,
+    ),
   );
 }

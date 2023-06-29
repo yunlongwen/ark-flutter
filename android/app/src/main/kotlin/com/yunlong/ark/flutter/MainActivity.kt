@@ -1,4 +1,4 @@
-package com.yunlong.flutter.flutter_scaffold
+package com.yunlong.ark.flutter
 
 import io.flutter.embedding.android.FlutterActivity
 
