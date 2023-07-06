@@ -1,5 +1,5 @@
 import 'package:ark_flutter/app_themes.dart';
-import 'package:authentication/main.dart';
+import 'package:moment/main.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
@@ -7,7 +7,7 @@ import 'package:get/get.dart';
 
 const routeHome = '/';
 const routeSettings = '/settings';
-const authentication = '/authentication';
+const moment = '/moment';
 
 void main() {
   runApp(
@@ -30,9 +30,9 @@ void main() {
         GetPage(name: routeHome, page: () => const HomeScreen()),
         GetPage(name: routeSettings, page: () => const SettingsScreen()),
         GetPage(
-            name: authentication,
-            page: () => const AuthenticationScreen(
-                  title: ' Authentication',
+            name: moment,
+            page: () => const MomentScreen(
+                  title: ' moment',
                 )),
       ],
       debugShowCheckedModeBanner: false,
@@ -85,7 +85,7 @@ class HomeScreen extends StatelessWidget {
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: () {
-          Get.toNamed(authentication);
+          Get.toNamed(moment);
         },
         child: const Icon(Icons.add),
       ),

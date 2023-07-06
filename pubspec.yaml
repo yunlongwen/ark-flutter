@@ -37,8 +37,8 @@ dependencies:
   intl: any
   intl_translation: ^0.18.0
   cupertino_icons: ^1.0.2
-  authentication:
-    path: modules/authentication
+  moment:
+    path: modules/moment
 
 dev_dependencies:
   flutter_test:
